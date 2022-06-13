@@ -96,6 +96,22 @@ ul {list-style: none;}
 }
 
 
-/* Секция характеристики*/
+/* Секция характеристики feature-list*/
 
+.feature-list .title {
+    color: var(--title-text-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+}
+
+.feature-list .text {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.72;
+}
+
+
+/* Секция занятия*/
 
