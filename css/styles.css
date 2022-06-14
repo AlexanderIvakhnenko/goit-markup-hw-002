@@ -5,16 +5,16 @@
 /* вторичный цвет фона 2F303A */
 
 :root {
-    --primary-text-color: #212121
-    --title-text-color: #757575
-    --primary-white-color #FFFFFF
-    --accent-color: #2196f3
-    --secondary-bg-gray-color #2F303A
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --primary-white-color: #FFFFFF;
+    --accent-color: #2196f3;
+    --secondary-bg-gray-color: #2F303A;
 }
 
 body {
-    background-color: var(--primary-white-color);
-    color: var(--primary-text-color);
+    background-color: #FFFFFF;
+    color: #757575;
 
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
@@ -28,18 +28,19 @@ ul {list-style: none;}
 /* шапка сайта site-nav*/
 
 .logo {
-    color: var(--accent-color);
+    display: flex;
     font-family: Raleway, sans-serif;
+    color: #2196f3;
     font-size: 26px;
     line-height: 1.2x;
     text-decoration: none;
 }
 
 .logo .second {
-    color: var(--primary-text-color);
+    color: #292929;
 }
 .site-nav .link {
-    color: var(--primary-text-color);
+    color: #757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -47,14 +48,14 @@ ul {list-style: none;}
     text-decoration: none;
 }
 .site-nav .link:hover,
-.second .link:focus {
-    color:var(--accent-color) ;
+.site-nav .link:focus {
+    color:#2196f3 ;
 }
 .site-nav .link.current {
-    color: var(--accent-color);
+    color: #2196f3;
 }
-.auth-nav .link {
-    color: var(--title-text-color);
+.auth-nav.link {
+    color: #757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -63,14 +64,14 @@ ul {list-style: none;}
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-    color: var(--accent-color);
+    color: #2196f3;
 }
 
 /* Слайдер*/
 
 .hero {
-    color: var(--primary-white-color);
-    background-color: var(--secondary-bg-gray-color);
+    color: #FFFFFF;
+    background-color: #2F303A;
 }
 
 .hero .title {
@@ -86,8 +87,8 @@ ul {list-style: none;}
 /* button*/
 
 .button {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
+    color: #FFFFFF;
+    background-color: #2196f3;
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
@@ -99,7 +100,7 @@ ul {list-style: none;}
 /* Секция характеристики feature-list*/
 
 .feature-list .title {
-    color: var(--title-text-color);
+    color: #757575;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
@@ -114,4 +115,112 @@ ul {list-style: none;}
 
 
 /* Секция занятия*/
+
+.section .caption {
+    color: #212121;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Секция команда*/
+
+.team .title {
+    color: #212121;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team .text {
+    color: #757575;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+/* Footer*/
+
+.logo .secondary {
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+
+.contact.link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72;
+    font-style: normal;
+}
+
+.contact.link:hover,
+.contact.link:focus {
+    color: #2196f3;
+}
+
+.contact.info {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+.contact .info:hover,
+.contact .info:focus {
+    color: #2196f3;
+}
+
+
+
+/* Стили для Портфолио*/
+
+
+.button.secondary {
+    color: #212121;
+    background-color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: #FFFFFF;
+    background-color: #2196f3;
+}
+
+.projects .title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects .text {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.projects .link {
+    text-decoration: none;
+}
 
