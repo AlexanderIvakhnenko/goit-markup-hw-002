@@ -14,7 +14,7 @@
 
 body {
     background-color: #FFFFFF;
-    color: #757575;
+    color: #212121;
 
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
@@ -37,10 +37,10 @@ ul {list-style: none;}
 }
 
 .logo .second {
-    color: #292929;
+    color: #212121;
 }
 .site-nav .link {
-    color: #757575;
+    color: #212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -78,7 +78,7 @@ ul {list-style: none;}
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.37;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
 
@@ -100,7 +100,7 @@ ul {list-style: none;}
 /* Секция характеристики feature-list*/
 
 .feature-list .title {
-    color: #757575;
+    color: #212121;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
@@ -110,7 +110,7 @@ ul {list-style: none;}
 .feature-list .text {
     color: #757575;
     font-size: 14px;
-    line-height: 1.72;
+    line-height: 1.71;
 }
 
 
@@ -154,7 +154,7 @@ ul {list-style: none;}
 }
 
 
-.contact.link {
+.contact .link {
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 400;
@@ -163,17 +163,17 @@ ul {list-style: none;}
     font-style: normal;
 }
 
-.contact.link:hover,
-.contact.link:focus {
+.contact .link:hover,
+.contact .link:focus {
     color: #2196f3;
 }
 
-.contact.info {
+.contact .info {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.72;
     font-style: normal;
 }
 
